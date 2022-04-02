@@ -1,0 +1,113 @@
+@font-face {
+	font-family: Material-Design-Iconic-Font;
+	src: url(../fonts/Material-Design-Iconic-Font.woff2?v=2.2.0) format('woff2'), url(../fonts/Material-Design-Iconic-Font.woff?v=2.2.0) format('woff'), url(../fonts/Material-Design-Iconic-Font.ttf?v=2.2.0) format('truetype')
+}
+
+.zmdi {
+	display: inline-block;
+	font: normal normal normal 14px/1 Material-Design-Iconic-Font;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+@-webkit-keyframes zmdi-spin {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg)
+	}
+}
+
+@keyframes zmdi-spin {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg)
+	}
+}
+
+@-webkit-keyframes zmdi-spin-reverse {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(-359deg);
+		transform: rotate(-359deg)
+	}
+}
+
+@keyframes zmdi-spin-reverse {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(-359deg);
+		transform: rotate(-359deg)
+	}
+}
+
+.zmdi-font:before {
+	content: '\f16a'
+}
+
+.zmdi-image:before {
+	content: '\f17f'
+}
+
+.zmdi-landscape:before {
+	content: '\f18a'
+}
+
+.zmdi-link:before {
+	content: '\f18e'
+}
+
+.zmdi-tag:before {
+	content: '\f1db'
+}
+
+.zmdi-select-all:before {
+	content: '\f254'
+}
+
+.zmdi-wrap-text:before {
+	content: '\f259'
+}
+
+.zmdi-font:before {
+	content: '\f16a'
+}
+
+.zmdi-image:before {
+	content: '\f17f'
+}
+
+.zmdi-landscape:before {
+	content: '\f18a'
+}
+
+.zmdi-link:before {
+	content: '\f18e'
+}
+
+.zmdi-tag:before {
+	content: '\f1db'
+}
+
+.zmdi-select-all:before {
+	content: '\f254'
+}
+
+.zmdi-wrap-text:before {
+	content: '\f259'
+}
